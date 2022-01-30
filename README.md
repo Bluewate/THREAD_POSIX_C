@@ -1,5 +1,31 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Bluewate 
+Bluewate
+/
 THREAD_POSIX_C
-
+Private
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+THREAD_POSIX_C/README
+@Bluewate
+Bluewate Add files via upload
+Latest commit 33ac56b 4 minutes ago
+ History
+ 1 contributor
+111 lines (98 sloc)  4.62 KB
+   
 
 These are the source files for the programming examples in
 "Programming With POSIX(r) Threads". The Makefile is pre-configured
@@ -13,6 +39,9 @@ printing, as well, because the changes were too large to fit. The
 signal-based suspend/resume program, susp.c, has been substantially
 revised to correct a number of problems with the original version.
 
+
+[ Better Living Through Concurrency ]
+======================================
 
 alarm.c				Simple synchronous alarm clock
 alarm_cond.c			Threaded alarm clock using condition variable
@@ -73,8 +102,9 @@ workq.h				Definitions for work queue package
 
 
 
- Programs with arguments or special behavior:
 
+Programs with arguments or special behavior:
+===========================================
 
 alarm, alarm_fork,		The alarm programs will prompt for
 alarm_thread, alarm_mutex,	commands until terminated by ^D
@@ -106,3 +136,17 @@ sigwait				Waits for 5 SIGINT signals (^C)
 thread				One thread writes to stdout while
 				another waits for input from
 				stdin. (Satisfy the read to exit.)
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
