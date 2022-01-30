@@ -75,8 +75,7 @@ workq.h				Definitions for work queue package
 
 
 
-
-# Programs with arguments or special behavior:
+ ## Programs with arguments or special behavior:
 
 
 alarm, alarm_fork,		The alarm programs will prompt for
