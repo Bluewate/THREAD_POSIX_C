@@ -1,4 +1,4 @@
-# THREAD_POSIX_C
+THREAD_POSIX_C
 
 
 These are the source files for the programming examples in
@@ -12,8 +12,6 @@ of the book. Some differ from the examples printed in the latest
 printing, as well, because the changes were too large to fit. The
 signal-based suspend/resume program, susp.c, has been substantially
 revised to correct a number of problems with the original version.
-
-
 
 
 alarm.c				Simple synchronous alarm clock
@@ -75,7 +73,7 @@ workq.h				Definitions for work queue package
 
 
 
- ## Programs with arguments or special behavior:
+ Programs with arguments or special behavior:
 
 
 alarm, alarm_fork,		The alarm programs will prompt for
