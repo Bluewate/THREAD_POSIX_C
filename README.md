@@ -14,8 +14,7 @@ signal-based suspend/resume program, susp.c, has been substantially
 revised to correct a number of problems with the original version.
 
 
-[ Better Living Through Concurrency ]
-======================================
+
 
 alarm.c				Simple synchronous alarm clock
 alarm_cond.c			Threaded alarm clock using condition variable
@@ -77,8 +76,8 @@ workq.h				Definitions for work queue package
 
 
 
-Programs with arguments or special behavior:
-===========================================
+# Programs with arguments or special behavior:
+
 
 alarm, alarm_fork,		The alarm programs will prompt for
 alarm_thread, alarm_mutex,	commands until terminated by ^D
